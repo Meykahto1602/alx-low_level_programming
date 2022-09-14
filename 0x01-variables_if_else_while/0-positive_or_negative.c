@@ -15,12 +15,12 @@
  *     *
  *
  *      *    * Return: Always 0 (Success)
- *       *
+ *
  *       *
  *
  */
  
- int main(void)
+int main(voi0)
 {
 
 	int n;
@@ -39,5 +39,5 @@
 
 	return (0);
 
-}
+} 
 
