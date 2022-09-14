@@ -20,7 +20,7 @@
  *
  */
  
-int main(voi0)
+int main(void)
 {
 
 	int n;
