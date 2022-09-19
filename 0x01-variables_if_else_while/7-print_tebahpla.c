@@ -24,7 +24,7 @@ int main(void)
 {
 	/* your code goes there*/
 	char ch = 'z';
-	
+
 	while (ch >= 'a')
 	{
 		putchar(ch);
