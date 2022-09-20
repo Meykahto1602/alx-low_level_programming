@@ -1,22 +1,48 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
+
+/* more headers goes there */
+/* betty style doc for function main goes there */
+
 /**
- * main - Entry point
+ *  *  * main - Entry point
  *
- * Return: Always 0 (Success)
+ *   *
+ *
+ *    *   *
+ *
+ *     *
+ *
+ *      *    * Return: Always 0 (Success)
+ *
+ *       *
+ *
  */
+
 int main(void)
 {
-	char alphabet;
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	/* your code goes there*/
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
-		if (alphabet == 'q')
+		if (ch == 'e')
+		{
+			ch = 'f';
 			continue;
-		else if (alphabet == 'e')
+		}
+
+		else if (ch == 'q')
+		{
+			ch = 'r';
 			continue;
-		putchar(alphabet);
+		}
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 	return (0);
+
 }
 
-		
