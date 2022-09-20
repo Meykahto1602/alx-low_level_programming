@@ -23,30 +23,35 @@
 int main(void)
 {
 	/* your code goes there*/
-	int i, j;
+	int i = '0';
+	int j = '0';
+	int k = '0';
 
-	for (i = 0; i <= 99; i++)
+	while (i <= '7')
 	{
-		for (j = 0; j <= 99; j++)
+		while (j <= '8')
 		{
-			if (i < j && i != j)
+			while (k <= '9')
 			{
-				putchar((i / 10) + '0');
-				putchar((i % 10) + '0');
-				putchar(' ');
-				putchar((j / 10) + '0');
-				putchar((j % 10) + '0');
-
-				if (i != 98 || j != 99)
+				if (i < j && j < k)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (!(i == '7' && j == '8' && k == '9'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
+				k++;
 			}
+			k = '0';
+			j++;
 		}
+		j = '0';
+		i++;
 	}
 	putchar('\n');
-
 	return (0);
 }
-
