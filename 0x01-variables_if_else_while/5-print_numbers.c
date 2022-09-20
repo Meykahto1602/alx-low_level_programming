@@ -1,17 +1,34 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
+/* more headers goes there */
+/* betty style doc for function main goes there */
+
 /**
- * main - Entry point
+ *  *  * main - Entry point
  *
- * Return: Always 0 (Success)
+ *   *
+ *
+ *    *   *
+ *
+ *     *
+ *
+ *      *    * Return: Always 0 (Success)
+ *
+ *       *
+ *
  */
+
 int main(void)
 {
-	int i;
-	for (i = 0; i < 10; i++)
+	/* your code goes there*/
+	char ch = 0;
+
+	while (ch < 10)
 	{
-		printf("%i", i);
+		printf("%d", ch);
+		ch++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
-}
