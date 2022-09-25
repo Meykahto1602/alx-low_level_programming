@@ -1,37 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
-/* more headers goes there */
-/* betty style doc for function main goes there */
-
+#include "main.h"
 /**
- *  *  * main - Entry point
- *
- *   *
- *
- *    *   *
- *
- *     *
- *
- *      *    * Return: Always 0 (Success)
- *
- *       *
- *
+ * main - lets put char -putchar
+ * Return: returns 0 if successful
  */
 
 int main(void)
 {
-	int myNumbers[] = {95, 112, 117, 116, 99, 104, 97, 114};
-
-	int i = 0;
-
-	while (i < 8)
-	{
-		putchar(myNumbers[i]);
-		i++;
-	}
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
